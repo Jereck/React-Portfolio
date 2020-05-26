@@ -4,11 +4,11 @@ import './About.css';
 export default function About() {
     return (
         <div className="content-body">
-            <div class="introduction">
+            <div className="introduction">
                 <h1>
-                    <span className="call-to-action">Hi!</span> My name is Jake Reck, and I am a self-taught developer.
+                    <span className="call-to-action">Hi!</span> My name is Jake Reck.
                 </h1>
-                <p className="announcement">I have a passion for solving problems with creative solutions.</p>
+                <p className="announcement">I am a self-taught developer with a passion for developing creative solutions for solving problems.</p>
             </div>
 
             <div className="current">
