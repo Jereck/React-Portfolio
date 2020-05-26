@@ -10,7 +10,7 @@ export default function About() {
                 </h1>
                 <p className="announcement">I have a passion for solving problems with creative solutions.</p>
             </div>
-            
+
             <div className="current">
                 <p>
                     <span className="learning">Currently Learning: </span> 

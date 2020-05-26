@@ -14,13 +14,13 @@ export default function Sidebar() {
                     <a href=""><i className="fab fa-github-square fa-2x"></i></a>
                     <a href=""><i className="fab fa-twitter-square fa-2x"></i></a>
                 </div>
+                <hr />
             </div>
-            <hr />
             <div className="nav-links">
                 <Link to="/">About</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contct</Link>
+                <Link to="/contact">Contact</Link>
             </div>
         </div>
     )

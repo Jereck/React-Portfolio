@@ -15,12 +15,12 @@ export default function Maintainer() {
             <div className="main-container">
                 <Sidebar />
                 <div className="content">
-                        <Switch>
-                            <Route exact path="/" component={About} />
-                            <Route exact path="/resume" component={Resume} />
-                            <Route exact path="/projects" component={Projects} />
-                            <Route exact path="/contact" component={Contact} />
-                        </Switch>
+                    <Switch>
+                        <Route exact path="/" component={About} />
+                        <Route exact path="/resume" component={Resume} />
+                        <Route exact path="/projects" component={Projects} />
+                        <Route exact path="/contact" component={Contact} />
+                    </Switch>
                 </div>
             </div>
         </Router>
