@@ -1,0 +1,20 @@
+.main-container {
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+}
+
+.content {
+    margin-left: 17%;
+    /* padding: 1px 16px; */
+    height: 100%;
+}

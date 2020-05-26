@@ -1,0 +1,73 @@
+.introduction {
+    margin-bottom: 25px;
+}
+
+.call-to-action {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.announcement {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 25px 0px;
+}
+
+.current {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.current .learning {
+    border-radius: 25px 0px 0px 25px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #447c91;
+}
+
+.current .skill {
+    border-radius: 0px 25px 25px 0px;
+    padding: 10px 15px;
+    background: rgb(199, 233, 245);
+}
+
+.grid-container {
+    min-width: 100%;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+    width: 16.66%;
+    padding: 12px;
+}
+
+.col-1{ width: 16.66%; }
+.col-2{ width: 33.33%; }
+.col-3{ width: 50%;    }
+.col-4{ width: 66.66%; }
+.col-5{ width: 83.33%; }
+.col-6{ width: 100%;   }
+
+.skill-lists ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+
+.skill-lists ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.skill-lists ul li:last-child {
+    border-bottom: none
+}
