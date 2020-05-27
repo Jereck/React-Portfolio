@@ -1,5 +1,5 @@
 .main-container {
-    background: white;
+    background: #eeedef;
     /* border: 1px solid white; */
     border-radius: 5px;
     width: 75%;
@@ -15,7 +15,8 @@
 
 .content {
     margin-left: 17%;
-    height: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 1024px)

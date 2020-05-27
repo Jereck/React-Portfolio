@@ -1,0 +1,35 @@
+.resume {
+    margin: 0 auto;
+}
+
+.block {
+    margin: 10px 0;
+}
+
+.course, .work-experience {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: #05668D;
+}
+
+.company {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.date {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.experience ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    line-height: 1.5rem;
+}

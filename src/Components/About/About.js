@@ -46,6 +46,8 @@ export default function About() {
                             <li>SQL</li>
                             <li>Azure</li>
                             <li>Firebase</li>
+                            <li>Agile/Scrum Methodologies</li>
+                            <li>User Testing</li>
                         </ul>
                     </div>
                 </div>

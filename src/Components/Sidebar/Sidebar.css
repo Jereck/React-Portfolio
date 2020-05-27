@@ -6,7 +6,7 @@
     color: white;
     position: fixed;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .sidebar-top {
